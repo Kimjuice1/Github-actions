@@ -2,12 +2,12 @@ name: First workflow
 on: push
 jobs: 
   echo:
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - run: echo 'Hello'
   pwd-ls:
     name: PWD , ls
-    runs-on: ubuntu-lastest
+    runs-on: ubuntu-latest
     steps:
       - name: Print working directory
         run: pwd
